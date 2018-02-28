@@ -1,0 +1,18 @@
+/* CSS Document */
+
+.contact {
+	background-color:#E9F7EF;	
+}
+
+.contact .form-element {
+	margin-bottom:10px;  
+}
+
+.contact form {
+	position:relative;  
+}
+
+.contact form button {
+	position:absolute;
+	right:10px;
+}

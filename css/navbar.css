@@ -1,0 +1,52 @@
+/* CSS Document */
+
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #818181;
+}
+
+.navbar {
+	background-color:rgba(20, 90, 50, 0.7);
+	border:0;
+}
+
+.navbar a {
+	background-color:transparent !important;
+	color:#fff !important;
+	letter-spacing:4px;
+	text-transform:uppercase;
+	-webkit-transition:color .5s, background-color .5s;
+	transition:color .5s, background-color .5s;
+}
+
+.navbar li.active a, .navbar li.active {
+	background-color:#fff !important;
+	color:#145A32 !important;
+}
+
+.navbar li:hover a, .navbar li a:hover {
+	background-color:white !important;
+	color:#145A32 !important;
+}
+
+.navbar span,.navbar i {
+	-webkit-transition:color .5s;
+	transition:color .5s;
+	color:#fff;
+	font-size:16px;
+}
+
+.navbar li:hover span, .navbar li a:hover span,.navbar li:hover i, .navbar li a:hover i {
+	color:#145A32;
+}
+
+.navbar .active span,.navbar .active i {
+	color:#145A32;
+}
